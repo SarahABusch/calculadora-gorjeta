@@ -147,6 +147,11 @@ main {
     }
 }
 
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+            display: none;
+        }
+
 @media(min-width: 920px) {
     main {
         display: flex;
@@ -165,10 +170,7 @@ main {
             transition: .5s;
         }
         }
-        input::-webkit-inner-spin-button,
-        input::-webkit-outer-spin-button{
-            display: none;
-        }
+        
         .results {
            display: flex;
            flex-direction: column;
