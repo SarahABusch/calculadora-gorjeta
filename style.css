@@ -18,7 +18,7 @@
     --water-leaf: #9FE8DF;
 }
 body {
-    font-size: 1..6rem;
+    font-size: 1.6rem;
     background: var(--jagged-ice);
 }
 header {

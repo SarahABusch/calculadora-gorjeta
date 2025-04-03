@@ -46,7 +46,7 @@ function removeClassButtonSelected(){
 
 function caculate() {
     if (bill !== 0 && tipPercentage !== 0 && numberOfPeople !== 0){
-       let tipAmountStrong = querySelector(".amount strong")
+       let tipAmountStrong = document.querySelector(".amount strong")
 
        let tipAmountPerson = bill * tipPercentage / numberOfPeople
        tipAmountStrong.innerText = `$${tipAmountPerson.toFixed(2)}`
@@ -71,8 +71,8 @@ function resert(){
     numberOfPeopleInput.value = ""
     numberOfPeople = 0
    
-    document.querySelector(". amount strong").innerText = "$0.00"
-    document.querySelector(". total strong").innerText = "$0.00" 
+    document.querySelector(".amount strong").innerText = "$0.00"
+    document.querySelector(".total strong").innerText = "$0.00" 
 
 
 }
