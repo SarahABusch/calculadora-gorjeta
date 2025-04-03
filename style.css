@@ -170,7 +170,7 @@ main {
            .total p {
             font-size: 1.6rem;
            }
-
+ 
            .amount strong,
            .total strong {
              font-size: 4.8rem;
@@ -183,3 +183,4 @@ main {
         }
     }
 }
+ 
